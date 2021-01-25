@@ -1,5 +1,5 @@
-<img src="https://static.begin.app/node-minimal/readme-banner.png" width="553">
+# ShawnHosea
 
-# Overview
+## Overview
 
-Official website of Artist/Technologist/Entrepreneur ShawnHosea.
+Website of artist ShawnHosea.
