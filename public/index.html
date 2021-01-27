@@ -52,6 +52,18 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
+    @keyframes HeroAnimation {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      100% {
+        opacity: 3;
+        transform: translateY(0);
+      }
+    }
+
     html {
       height: 100%;
     }
@@ -69,10 +81,18 @@
       color: #183a37;
       font-family: 'Homemade Apple', cursive;
       margin: 0;
+      animation: HeroAnimation;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     p {
       margin: 0;
+      animation: HeroAnimation;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     a {
@@ -86,11 +106,18 @@
 
     svg {
       height: 40px;
-      fill: #183a37
+      fill: #183a37;
+      animation: HeroAnimation;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+      transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     svg:hover {
       fill: #c44900;
+      filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+      transform: translateY(-9px);
     }
 
     .wrapper {
