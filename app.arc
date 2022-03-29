@@ -2,5 +2,11 @@
 shawnhosea
 
 @http
+get /
+get /cv
 
-@static
+@tables
+data
+  scopeID *String
+  dataID **String
+  ttl TTL
