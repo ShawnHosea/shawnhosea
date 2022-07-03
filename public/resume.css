@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+  /* RESET */
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  img {max-width: 100%;}
+  svg {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+  }
+  select,
+  textarea,
+  button,
+  input {font-family: inherit;}
+  
+  
+  /* TYPEFACE */
+  html {font-size: 18px;}
+  body {
+    font-weight: normal;
+    line-height: 1.5;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+body {
+  font-family: 'Open Sans','Myriad Pro','Myriad',sans-serif;
+  color: #1D1313;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, ul dl dt {
+  font-family: 'Old Standard TT',serif;
+}
+
+hr {
+  border: solid .01rem #eeeeee;
+  margin: 2rem 0;
+}
+
+.container{
+margin: 4rem 8rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.header h2 {
+  font-style: italic;
+  font-weight: 300;
+}
+.contact {
+  text-align: right;
+}
+.technical {
+  display: flex;
+}
+.technical h3 {
+  display: flex;
+  margin-right: 5rem;
+}
+.techs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem 2rem;
+  list-style: none;
+  flex-grow: 1;
+}
+.experience {
+  display: flex;
+}
+.experience h3 {
+  display: flex;
+  margin-right: 5rem;
+}
+.exp ul li {
+  margin: 0 2rem 0;
+}
+.exp {
+  margin-bottom: 2rem;
+}

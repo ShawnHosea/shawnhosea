@@ -63,7 +63,7 @@ module.exports = function Head (props = {}) {
 
     <!-- Styles -->
   
-    <link rel="stylesheet" type="text/css" href="${arc.static('/styles.css')}">
+    <link rel="stylesheet" type="text/css" href="${arc.static('/resume.css')}">
     </head>
   `
   }
