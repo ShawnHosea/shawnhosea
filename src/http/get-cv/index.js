@@ -31,10 +31,12 @@ exports.handler = arc.http.async(index)
     <ul class="techs">
       <li>UI design | HTML/CSS</li>
       <li>Javascript / NodeJS</li>
-      <li>Unix / Bash</li>
-      <li>AWS / Cloud</li>
+      <li>Linux / Bash</li>
+      <li>AWS | cloud/serverless</li>
+      <li>APIs/REST/OAuth</li>
       <li>Git</li>
-      <li>Tap/Tape TDD</li>
+      <li>TDD</li>
+      <li>Figma/Sketch</li>
     </ul>
   </div>
 
@@ -45,55 +47,49 @@ exports.handler = arc.http.async(index)
 
     <div>
       <div class="exp">
-        <strong>Begin | </strong><span>Junior Engineer</span> 
+        <strong>Begin | </strong><span>FullStack Engineer</span> 
         <p>2020 to 2022</p>
         <br>    
-        <p>Designed and implemented features and improvements for multiple enterprise sized applications.</p>
-        <p>Automated manual report generation for legacy ticketing system to provide reliable team analytics.</p>
-        <p>Provided quality solutions to mission critical production issues in a timely manner.</p>
-        <p>Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.</p>
+        <p>Worked on day to day frontend/backend maintenance of company product alongside founders.</p>
+        <p>Prototyped new features and pushed several updates to production.</p>
         <br>
         <ul class="tasks">
-          <li>drive</li>
-          <li>drive</li>
-          <li>drive</li>
-          <li>drive</li>
+          <li>Built company blog site.</li>
+          <li>Wrote product documentation and technical articles.</li>
+          <li>Created technical videos explainers showcasing product features.</li>
+          <li>Shipped weekly PRs to main product (Begin) and open-source community (Architect).</li>
+          <li>Regularly kept repositories and changelogs updated.</li>
         </ul>
         <br>
-        <blockquote><strong>Technical Environment: </strong>OpenJS Architect, Node, AWS.</blockquote>
+        <blockquote><strong>Technical Environment: </strong>OpenJS Architect, Node, AWS, Tap (Test Anything Protocol).</blockquote>
       </div>
    
       <div class="exp">
         <strong>Fortamus | </strong><span>UI Developer</span> 
         <p>2019 to 2019</p>
         <br>
-        <p>Designed and implemented features and improvements for multiple enterprise sized applications.</p>
-        <p>Automated manual report generation for legacy ticketing system to provide reliable team analytics.</p>
-        <p>Provided quality solutions to mission critical production issues in a timely manner.</p>
-        <p>Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.</p>
+        <p>Contract role where main objective was to redesign app's user interface using Ant Design.</p>
+        <p>Focus was on creating reusable components for all parts of the app.</p>
         <br>
         <ul class="tasks">
-          <li>drive</li>
-          <li>drive</li>
-          <li>drive</li>
-          <li>drive</li>
+          <li>Designed and implemented user interface components for app's admin area utilizing React and Ant Design library.</li>
+          <li>Designed and built company marketing site using Gatsby.</li>
+          <li>Quality assurance for ensuring responsive mobile & desktop experience.</li>
+          <li>Designed in-app graphics, promotional brand assets, & daily core content.</li>
         </ul>
         <br>    
         <blockquote><strong>Technical Environment: </strong>React, Ant Design.</blockquote>
       </div>
 
       <div class="exp">
-        <strong>Swizec | </strong><span>Apprentice</span> 
+        <strong>Swizec Inc. | </strong><span>Apprentice</span> 
         <p>2018 to 2019</p>
-        <p>Architected and implemented a interactive media streaming service that enabled realtime, massively multiplayer, jeopardy-style interactions.</p>
-        <p>Built host interface to inject synchronized prompts, overlays and widgets into live video stream.</p>
-        <p>Created detailed documentation regarding technical requirements, project time lines and staffing guidelines for realizing total product offering.</p>
+        <p>Apprenticeship position where I was tasked with building marketing sites for several digital products using React & Gatsby.</p>
         <br>
         <ul class="tasks">
-          <li>drive</li>
-          <li>drive</li>
-          <li>drive</li>
-          <li>drive</li>
+          <li>Created reusable React components for landing pages.</li>
+          <li>Designed overall product branding and user experience.</li>
+          <li>Self-initiated coding of prototypes for user testing to aid in other designers projects.</li>
         </ul>
         <br>
         <blockquote><strong>Technical Environment: </strong> React, Gatsby, Javascript.</blockquote>
@@ -106,11 +102,26 @@ exports.handler = arc.http.async(index)
   <div class="projects">
     <h3>Projects</h3>
     <ul class="projectGroup">
-      <li><p><strong>Patromate</strong><br>  <a href=http://www.patromate.com>patromate.com</a><br>  Cordova based app(iOS &amp; Android) that leverages a huge amalgamation of public data. Driven by over 30 web spiders, 15 webservices and multiple external databases it provides brand ratings from non-profit organisations by scanning product barcodes.</p>
+      <li>
+        <strong>Patromate</strong>
+        <br>
+        <a href=https://patromate.com>patromate.com</a>
+        <br>  
+        <p>Utilizing OAuth2 provided by the Patreon API, this app allows users to download a .csv file containing a list of all posts in thier Patreon account.</p>
       </li>
-      <li><p><strong>PushThemes</strong><br>  <a href=http://www.pushthemes.com>pushthemes.com</a><br>  HTML5 Animated heatmap visualising crimes in the city of Halifax. Built on a customised version Heatmap.js library which enables smooth animation. Won silver in the <a href="http://apps4halifax.ca/">Apps4Halifax</a> city category.</p>
+      <li>
+        <strong>PushThemes</strong>
+        <br>  
+        <a href=https://pushthemes.com>pushthemes.com</a>
+        <br>  
+        <p>This site and the accompanying subdomains is a repository of themes for Ghost users to create thier own blogs with. It utilizes the Ghost API to allow users to create unique designs with the theme. The site is built and hosted on an AWS EC2 instance.</p>
       </li>
-      <li><p><strong>Noticate</strong><br>  <a href=https://noticate.com>noticate.com</a><br>  Chrome extension that enables Firefox-style live RSS feeds with over fifteen thousand active users a 4/5 star rating.</p>
+      <li>
+        <strong>Noticate</strong>
+        <br>  
+        <a href=https://noticate.com>noticate.com</a>
+        <br>  
+        <p>This is a messaging app that lets users send messages along with tips to tother users.</p>
       </li>
     </ul>
   </div>
