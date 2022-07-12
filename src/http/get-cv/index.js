@@ -50,15 +50,16 @@ exports.handler = arc.http.async(index)
         <strong>Begin | </strong><span>FullStack Engineer</span> 
         <p>2020 to 2022</p>
         <br>    
-        <p>Worked on day to day frontend/backend maintenance of company product alongside founders.</p>
+        <p>Worked on day-to-day frontend/backend maintenance of company product alongside founders.</p>
         <p>Prototyped new features and pushed several updates to production.</p>
         <br>
         <ul class="tasks">
           <li>Built company blog site.</li>
           <li>Wrote product documentation and technical articles.</li>
-          <li>Created technical videos explainers showcasing product features.</li>
-          <li>Shipped weekly PRs to main product (Begin) and open-source community (Architect).</li>
+          <li>Created technical video explainers showcasing product features.</li>
+          <li>Shipped weekly PRs to the main product (Begin) and open-source community (Architect).</li>
           <li>Regularly kept repositories and changelogs updated.</li>
+          <li>Helped troubleshoot customer issues with product.</li>
         </ul>
         <br>
         <blockquote><strong>Technical Environment: </strong>OpenJS Architect, Node, AWS, Tap (Test Anything Protocol).</blockquote>
@@ -68,7 +69,7 @@ exports.handler = arc.http.async(index)
         <strong>Fortamus | </strong><span>UI Developer</span> 
         <p>2019 to 2019</p>
         <br>
-        <p>Contract role where main objective was to redesign app's user interface using Ant Design.</p>
+        <p>Contract role where the main objective was to redesign the app's user interface using Ant Design.</p>
         <p>Focus was on creating reusable components for all parts of the app.</p>
         <br>
         <ul class="tasks">
@@ -121,7 +122,7 @@ exports.handler = arc.http.async(index)
         <br>  
         <a href=https://noticate.com>noticate.com</a>
         <br>  
-        <p>This is a messaging app that lets users send messages along with tips to tother users.</p>
+        <p>This is a messaging app that lets users to send messages along with monetary tips to other users.</p>
       </li>
     </ul>
   </div>
