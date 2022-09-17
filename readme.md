@@ -2,4 +2,4 @@
 
 ## Overview
 
-Website of artist ShawnHosea.
+Website of artist ShawnHosea. 
