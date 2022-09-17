@@ -15,7 +15,7 @@ exports.handler = arc.http.async(index)
   <div class="header">
     <div>
       <h1>Shawn Hosea</h1>
-      <h2>Full Stack Engineer &amp; Product Enthusiast</h2>
+      <h2>Full Stack Engineer &amp; Product Engineer</h2>
     </div>
     <div class="contact">
     <p><a href="https://github.com/ShawnHosea">github.com/ShawnHosea</a></p>
@@ -37,6 +37,7 @@ exports.handler = arc.http.async(index)
       <li>Git</li>
       <li>TDD</li>
       <li>Figma/Sketch</li>
+      <li>Adobe Creative Suite</li>
     </ul>
   </div>
 
