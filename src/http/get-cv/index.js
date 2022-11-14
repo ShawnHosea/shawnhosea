@@ -20,7 +20,7 @@ exports.handler = arc.http.async(index)
     <div class="contact">
     <p><a href="https://github.com/ShawnHosea">github.com/ShawnHosea</a></p>
       <p>shawnhosea@shawnhosea.com</p>
-      <p>(404) 610-0305</p>
+      <p>(678) 973-5344</p>
     </div>
   </div>
 
@@ -120,11 +120,11 @@ exports.handler = arc.http.async(index)
         <p>This site and the accompanying subdomains are a repository of themes for Ghost users to create blogs. It utilizes the Ghost API to allow users to create unique designs with the theme. The site is built and hosted on an AWS EC2 instance.</p>
       </li>
       <li>
-        <strong>Noticate</strong>
+        <strong>OSINTcoder</strong>
         <br>  
-        <a href=https://noticate.com>noticate.com</a>
+        <a href=https://www.osintcoder.com/>osintcoder.com</a>
         <br>  
-        <p>This is a messaging app that lets users to send messages along with monetary tips to other users.</p>
+        <p>This custom hand-coded blog site built using Ghost CMS teaches the fundamentals of OSINT and cybersecurity.</p>
       </li>
     </ul>
   </div>
