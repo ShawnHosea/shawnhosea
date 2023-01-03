@@ -2,6 +2,6 @@
 
 git add .
 
-git commit -am
+git commit -am "update"
 
 git push
