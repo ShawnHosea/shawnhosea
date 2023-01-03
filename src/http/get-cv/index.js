@@ -105,6 +105,13 @@ exports.handler = arc.http.async(index)
   <div class="projects">
     <h3>Projects</h3>
     <ul class="projectGroup">
+    <li>
+        <strong>Noticate</strong>
+        <br>  
+        <a href=https://noticate.com/>noticate.com</a>
+        <br>  
+        <p>This app allows users to schedule video recordings of YouTube/Twitch live-streams. The tech stack utilizes AWS serverless Lambda functions, provisioned ec2 instances, linux/bash, and AWS S3.</p>
+      </li>
       <li>
         <strong>Patromate</strong>
         <br>
@@ -118,13 +125,6 @@ exports.handler = arc.http.async(index)
         <a href=https://pushthemes.com>pushthemes.com</a>
         <br>  
         <p>This site and the accompanying subdomains are a repository of themes for Ghost users to create blogs. It utilizes the Ghost API to allow users to create unique designs with the theme. The site is built and hosted on an AWS EC2 instance.</p>
-      </li>
-      <li>
-        <strong>OSINTcoder</strong>
-        <br>  
-        <a href=https://www.osintcoder.com/>osintcoder.com</a>
-        <br>  
-        <p>This custom hand-coded blog site built using Ghost CMS teaches the fundamentals of OSINT and cybersecurity.</p>
       </li>
     </ul>
   </div>
