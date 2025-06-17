@@ -1,4 +1,22 @@
-deploy.sh
-.arc-env
+node_modules/
+.env
+
+# Enhance temp files
+.enhance/
+
+# Generated assets
+public/static.json
+public/browser/
+public/bundles/
+public/pages/
+
+# Architect CloudFormation
+sam.json
+sam.yaml
+
 .DS_Store
-node_modules
+.cursorrules
+notes/
+notes.md
+CLAUDE.md
+preferences.arc
