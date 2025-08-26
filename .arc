@@ -8,6 +8,7 @@ timeout 30
 enhance/arc-plugin-enhance
 enhance/arc-plugin-styles
 enhance/styles-cribsheet
+enhance/arc-plugin-block-bots
 
 @enhance-styles
 config styleguide.json
