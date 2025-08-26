@@ -5,8 +5,8 @@
 - **production**: https://shawnhosea.com/
 
 ### AWS
-- **staging:** 	https://7l42ncbiih.execute-api.us-west-2.amazonaws.com/
-- **production:** https://p4r32a6707.execute-api.us-west-2.amazonaws.com/
+- **staging:** 	https://e1z9wl71we.execute-api.us-west-2.amazonaws.com/
+- **production:** https://hnw0fkepb9.execute-api.us-west-2.amazonaws.com/
 
 ### Deploy
 git commit -a -m "wip" --no-verify && git push origin HEAD
@@ -17,4 +17,3 @@ git commit -a -m "wip" --no-verify && git push origin HEAD
 ### Logs
 - arc logs staging app/get-index
 - arc logs production src/http/get-index
-
