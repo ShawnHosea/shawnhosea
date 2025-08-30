@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Shawn Hosea</title>
+        <link>http://localhost:3333</link>
+        <description>Worldwide on the thorough side of things</description>
+        <lastBuildDate>Sat, 30 Aug 2025 04:53:10 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>http://localhost:3333 via Feed for Node.js</generator>
+        <language>en</language>
+        <copyright>All rights reserved 2025, Shawn Hosea</copyright>
+        <item>
+            <title><![CDATA[In the Beginning]]></title>
+            <link>http://localhost:3333/posts/2025-08-30-in-the-beginning</link>
+            <guid>http://localhost:3333/posts/2025-08-30-in-the-beginning</guid>
+            <pubDate>Sat, 30 Aug 2025 04:00:00 GMT</pubDate>
+            <description><![CDATA[Kicking off my blog.]]></description>
+        </item>
+    </channel>
+</rss>
